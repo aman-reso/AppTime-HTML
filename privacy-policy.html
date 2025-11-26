@@ -77,6 +77,30 @@
             margin-top: 30px;
         }
         
+        .prominent-disclosure {
+            background-color: #fff3cd;
+            border: 3px solid #ffc107;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            font-weight: 600;
+        }
+        
+        .prominent-disclosure h2 {
+            color: #856404;
+            border-bottom: 2px solid #ffc107;
+            margin-top: 0;
+        }
+        
+        .disclosure-text {
+            background-color: #ffffff;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
         a {
             color: #3498db;
             text-decoration: none;
@@ -104,16 +128,45 @@
         
         <p>Welcome to AppTime (also referred to as "ScreenTime", "we", "us", or "our"). We are committed to protecting your privacy and ensuring transparency about how we collect, use, and safeguard your information. This Privacy Policy explains our practices regarding data collection and usage when you use our application.</p>
         
+        <div class="prominent-disclosure">
+            <h2>⚠️ PROMINENT DISCLOSURE - DATA COLLECTION AND SHARING</h2>
+            <div class="disclosure-text">
+                <p><strong>AppTime collects, transmits, syncs, and stores your Installed Application information (including application names, package identifiers, and usage statistics) to enable screen time tracking and app usage analytics features, when you use the app to monitor your device usage patterns.</strong></p>
+                
+                <p>Specifically, AppTime:</p>
+                <ul>
+                    <li><strong>Collects</strong> information about all applications installed on your device, including application names and package identifiers</li>
+                    <li><strong>Transmits</strong> this Installed Application information to our servers to provide cloud sync, backup, and cross-device analytics features</li>
+                    <li><strong>Stores</strong> your Installed Application information both locally on your device and on our secure servers</li>
+                    <li><strong>Uses</strong> this data to generate usage reports, provide personalized insights, and improve app functionality</li>
+                </ul>
+                
+                <p>This data collection is essential for the core functionality of AppTime. By using this app, you consent to the collection, transmission, storage, and use of your Installed Application information as described in this Privacy Policy.</p>
+                
+                <p><strong>You have the right to opt-out of data transmission at any time through the app settings, though this may limit certain features such as cloud backup and cross-device synchronization.</strong></p>
+            </div>
+        </div>
+        
         <h2>1. Information We Collect</h2>
         
-        <h3>1.1 App Usage Data</h3>
+        <h3>1.1 Installed Application Information</h3>
+        <p><strong>AppTime collects and transmits your Installed Application information, which includes:</strong></p>
+        <ul>
+            <li><strong>Application Names:</strong> The names of all applications installed on your device</li>
+            <li><strong>Package Identifiers:</strong> Unique identifiers for each installed application (e.g., com.example.app)</li>
+            <li><strong>Application Metadata:</strong> Information about application versions, installation dates, and categories</li>
+        </ul>
+        <p><strong>This information is collected automatically when you first launch the app and is continuously updated as you install or uninstall applications. This data is transmitted to our servers to enable cloud-based features.</strong></p>
+        
+        <h3>1.2 App Usage Data</h3>
         <p>To provide you with screen time tracking and app usage analytics, we collect:</p>
         <ul>
-            <li>Application names and package identifiers</li>
             <li>Time spent on each application</li>
             <li>Frequency of app usage</li>
+            <li>Session duration and patterns</li>
             <li>Device information (model, operating system version)</li>
         </ul>
+        <p><strong>This usage data is linked to your Installed Application information and may be transmitted to our servers for analytics and cloud sync purposes.</strong></p>
         
         <h3>1.2 Device Information</h3>
         <p>We may collect certain device information to ensure compatibility and improve our services:</p>
@@ -141,50 +194,102 @@
             <li><strong>Security:</strong> To detect and prevent fraud, abuse, and security threats</li>
         </ul>
         
-        <h2>3. Data Storage and Security</h2>
+        <h2>3. Data Storage, Transmission, and Security</h2>
         
-        <h3>3.1 Local Storage</h3>
-        <p>All app usage data is stored locally on your device. We do not transmit your personal app usage data to external servers without your explicit consent.</p>
+        <h3>3.1 Data Transmission</h3>
+        <p><strong>AppTime transmits your Installed Application information and app usage data to our secure servers.</strong> This transmission occurs:</p>
+        <ul>
+            <li>When you first launch the app (to sync your installed applications)</li>
+            <li>Periodically to keep your data synchronized across devices</li>
+            <li>When you enable cloud backup features</li>
+            <li>To provide analytics and usage insights</li>
+        </ul>
+        <p>All data transmission is encrypted using industry-standard SSL/TLS protocols to ensure secure transfer.</p>
         
-        <h3>3.2 Data Security</h3>
+        <h3>3.2 Data Storage</h3>
+        <p>Your data is stored in two locations:</p>
+        <ul>
+            <li><strong>Local Storage:</strong> On your device for immediate access and offline functionality</li>
+            <li><strong>Cloud Storage:</strong> On our secure servers to enable backup, sync, and cross-device access</li>
+        </ul>
+        <p>You can control cloud storage through app settings. Disabling cloud sync will prevent data transmission to our servers, but local functionality will continue to work.</p>
+        
+        <h3>3.3 Data Security</h3>
         <p>We implement appropriate technical and organizational measures to protect your data:</p>
         <ul>
-            <li>Encryption of sensitive data</li>
+            <li>End-to-end encryption for data in transit</li>
+            <li>Encryption at rest for data stored on our servers</li>
             <li>Secure local storage mechanisms</li>
-            <li>Regular security assessments</li>
+            <li>Regular security assessments and audits</li>
+            <li>Access controls and authentication protocols</li>
         </ul>
         
-        <h3>3.3 Data Retention</h3>
-        <p>Your app usage data is retained on your device according to your preferences. You can delete this data at any time through the application settings.</p>
+        <h3>3.4 Data Retention</h3>
+        <p>Your Installed Application information and app usage data are retained:</p>
+        <ul>
+            <li><strong>Locally:</strong> According to your device storage and app settings</li>
+            <li><strong>On Servers:</strong> Until you delete your account or request data deletion, or as required by law</li>
+        </ul>
+        <p>You can delete your data at any time through the application settings or by contacting us directly.</p>
         
         <h2>4. Data Sharing and Disclosure</h2>
         
-        <p>We respect your privacy and do not sell, trade, or rent your personal information to third parties. We may share information only in the following circumstances:</p>
+        <p><strong>AppTime shares your Installed Application information and usage data in the following circumstances:</strong></p>
+        
+        <h3>4.1 Service Providers</h3>
+        <p>We share your Installed Application information and usage data with trusted third-party service providers who assist in operating our application, including:</p>
         <ul>
-            <li><strong>Legal Requirements:</strong> When required by law or to comply with legal processes</li>
-            <li><strong>Service Providers:</strong> With trusted third-party service providers who assist in operating our application (under strict confidentiality agreements)</li>
-            <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets (with notice to users)</li>
+            <li>Cloud storage and hosting providers</li>
+            <li>Analytics and data processing services</li>
+            <li>Customer support platforms</li>
+        </ul>
+        <p>All service providers are bound by strict confidentiality agreements and are only permitted to use your data for the specific purposes of providing services to us.</p>
+        
+        <h3>4.2 Legal Requirements</h3>
+        <p>We may disclose your Installed Application information when required by law or to comply with legal processes, including:</p>
+        <ul>
+            <li>In response to valid court orders or subpoenas</li>
+            <li>To comply with applicable laws and regulations</li>
+            <li>To protect our rights, privacy, safety, or property</li>
+            <li>To prevent fraud or security threats</li>
+        </ul>
+        
+        <h3>4.3 Business Transfers</h3>
+        <p>In the event of a merger, acquisition, or sale of assets, your Installed Application information and usage data may be transferred to the acquiring entity. We will provide notice to users before such transfer occurs.</p>
+        
+        <h3>4.4 What We Do NOT Do</h3>
+        <p>We do <strong>NOT</strong>:</p>
+        <ul>
+            <li>Sell, trade, or rent your Installed Application information to third parties for marketing purposes</li>
+            <li>Share your data with advertisers without your explicit consent</li>
+            <li>Use your Installed Application information for purposes other than those disclosed in this policy</li>
         </ul>
         
         <h2>5. Your Rights and Choices</h2>
         
-        <p>You have the following rights regarding your data:</p>
+        <p>You have the following rights regarding your Installed Application information and usage data:</p>
         <ul>
-            <li><strong>Access:</strong> You can view all data collected by the application</li>
-            <li><strong>Deletion:</strong> You can delete your usage data at any time</li>
-            <li><strong>Opt-out:</strong> You can disable data collection features in settings</li>
-            <li><strong>Export:</strong> You can export your data for personal use</li>
+            <li><strong>Access:</strong> You can view all data collected by the application, including your Installed Application information, through the app settings</li>
+            <li><strong>Opt-out of Data Transmission:</strong> You can disable cloud sync and data transmission to our servers in the app settings. This will prevent your Installed Application information from being transmitted, though local tracking will continue</li>
+            <li><strong>Deletion:</strong> You can delete your usage data and Installed Application information at any time through the application settings or by contacting us</li>
+            <li><strong>Account Deletion:</strong> You can request complete deletion of your account and all associated data, including Installed Application information stored on our servers</li>
+            <li><strong>Export:</strong> You can export your data for personal use in standard formats</li>
+            <li><strong>Revoke Consent:</strong> You can revoke your consent to data collection at any time by uninstalling the app or disabling data collection features</li>
         </ul>
         
-        <h2>6. Permissions</h2>
+        <p><strong>Important:</strong> If you opt-out of data transmission, certain features such as cloud backup, cross-device sync, and remote analytics will not be available. Local tracking and basic functionality will continue to work.</p>
         
-        <p>Our application requires certain permissions to function properly:</p>
+        <h2>6. Permissions and Data Access</h2>
+        
+        <p>Our application requires certain permissions to function properly and collect Installed Application information:</p>
         <ul>
-            <li><strong>Usage Access:</strong> To track app usage and screen time</li>
+            <li><strong>Usage Access (QUERY_ALL_PACKAGES / PACKAGE_USAGE_STATS):</strong> Required to access and collect information about all installed applications on your device, including application names and package identifiers. This permission is essential for the core functionality of AppTime.</li>
+            <li><strong>Internet Access:</strong> Required to transmit your Installed Application information and usage data to our servers for cloud sync and analytics features.</li>
+            <li><strong>Storage:</strong> To save your usage data and Installed Application information locally on your device.</li>
             <li><strong>Notification Access:</strong> To provide usage alerts and reminders (optional)</li>
-            <li><strong>Storage:</strong> To save your usage data locally</li>
         </ul>
-        <p>You can revoke these permissions at any time through your device settings, though this may limit application functionality.</p>
+        <p><strong>By granting these permissions, you consent to the collection and transmission of your Installed Application information as described in this Privacy Policy.</strong></p>
+        <p>You can revoke these permissions at any time through your device settings, though this will limit or disable application functionality. Revoking Usage Access will prevent the app from collecting Installed Application information, and revoking Internet Access will prevent data transmission to our servers.</p>
         
         <h2>7. Children's Privacy</h2>
         
